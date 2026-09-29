@@ -1,0 +1,15 @@
+# AgriSathi — Member 1: Image-Based Crop Disease Detection
+# Core dependencies. Google Colab ships with most of these preinstalled
+# (tensorflow, numpy, pandas, matplotlib, pillow, scikit-learn) — this
+# file is provided for reproducibility outside Colab as well.
+
+tensorflow>=2.15,<3.0
+numpy>=1.24
+pandas>=2.0
+matplotlib>=3.7
+scikit-learn>=1.3
+Pillow>=10.0
+
+# Optional: enables near-duplicate detection in src/dataset.py.
+# If not installed, near-duplicate checking is skipped gracefully.
+imagehash>=4.3
